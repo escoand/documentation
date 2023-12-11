@@ -18,7 +18,7 @@ You can create a direct, one-on-one chat by searching for the name of a user, a 
 
 .. image:: images/chat-with-one-user.png
 
-If you want to create a custom group conversation, click the ``⋮`` button next to the filters button and then on ``Create a new conversation``. 
+If you want to create a custom group conversation, click the ``⋮`` button next to the filters button and then on ``Create a new conversation``.
 
 .. image:: images/create-new-conversation.png
     :width: 300px
@@ -94,6 +94,47 @@ You can add emoji using the picker on the left of the text input field.
 .. image:: images/emoji-picker.png
    :width: 450px
 
+Using Markdown
+---------------
+
+You can enhance your messages with a markdown syntax support. See list for usage:
+
+.. code-block:: javascript
+
+  # Heading 1
+  ## Heading 2
+  ### Heading 3
+  #### Heading 4
+  ##### Heading 5
+  ###### Heading 6
+
+  Heading
+  ===
+  Normal text
+
+  **bold text**
+  __bold text__
+  *emphasis*
+  _emphasis_
+  `inline code`
+
+  1. Ordered list
+  * Unordered list
+  - Unordered list
+  + Unordered list
+
+  ```
+  .code-block {
+    display: pre;
+  }
+  ```
+
+  > blockquote
+  second line of blockquote
+
+  ***
+  Divider
+
 Replying to messages and more
 -----------------------------
 
@@ -149,7 +190,7 @@ You can access your settings and choose a different webcam, microphone and other
 .. image:: images/media-settings.png
     :width: 300px
 
-or change the background 
+or change the background
 
 .. image:: images/background-settings-in-call.png
     :width: 300px
